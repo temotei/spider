@@ -1,0 +1,65 @@
+.横並びA{
+	display:flex;
+	justify-content: space-between;
+	& .列{
+		background-color: orange;
+		width:120px;
+	
+	}
+}
+
+.横並びB{
+	display:flex;
+	justify-content:space-between;
+	& .広い列{
+	background-color:lightblue;	
+		width:240px;
+	}
+	& .狭い列{
+		background-color:lightgreen;
+		width:120px;
+	}
+}
+
+.横並びC{
+	display:flex;
+	justify-content:space-between;
+	& .列{
+		background-color: pink;
+		width:120px;
+	}
+}
+
+.横並びD{
+	display:flex;
+	justify-content:center;
+	gap:20px;
+	& .列{
+		background-color: red;
+		width:120px;
+	}
+	margin-bottom:20px;
+}
+
+
+
+
+.animals{
+	display:flex;
+	justify-content: space-between;
+	gap:3px;
+}
+.animal{
+	padding:10px 10px 10px 10px;
+	border:solid 1px;
+}
+.img{
+	width:100%;
+}
+.name{
+	font-size:1.3em;
+	font-weight:bold;
+}
+.文章{
+	font-size:0.7em;
+}
